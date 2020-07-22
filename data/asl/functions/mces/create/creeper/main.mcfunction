@@ -1,0 +1,2 @@
+function asl:mces/create/creeper/needs
+execute if score @s ele_have_yin >= @s ele_need_yin if score @s ele_have_yang >= @s ele_need_yang if score @s ele_have_hot >= @s ele_need_hot if score @s ele_have_cold >= @s ele_need_cold if score @s ele_have_light >= @s ele_need_light if score @s ele_have_shade >= @s ele_need_shade if score @s ele_have_sq >= @s ele_need_sq run function asl:mces/create/creeper/over

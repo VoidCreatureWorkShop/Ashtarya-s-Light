@@ -1,0 +1,15 @@
+{
+	"display" : {
+		"icon" : {"item":"minecraft:barrier"},
+		"title" : "触发器根进度",
+		"background" : "minecraft:textures/block/red_wool.png",
+		"description" : "",
+		"show_toast" : false,
+		"announce_to_chat" : false
+	},
+  "criteria": {
+    "trigger_root": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"parent" : "asl:trigger/root",
+	"display" : {
+		"icon" : {"item":"minecraft:barrier"},
+		"title" : "元素导流器放置检测",
+		"description" : "",
+		"hidden" : true,
+		"show_toast" : false,
+		"announce_to_chat" : false
+	},
+  "criteria": {
+    "element_guider": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+        "nbt" : "{id:\"asl:element_guider\"}"
+        }
+      }
+    }
+  },
+  "rewards":{
+	"function" : "asl:block/element_guider/set"
+  }
+}

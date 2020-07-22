@@ -1,0 +1,3 @@
+execute unless block ~ ~ ~ dropper{CustomName:'{"translate":"asl.block.element_guider.name"}'} run data merge entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:barrel",Count:1b}}] {Item:{tag:{id:"asl:element_guider"}}}
+execute unless block ~ ~ ~ dropper{CustomName:'{"translate":"asl.block.element_guider.name"}'} run say killed
+execute unless block ~ ~ ~ dropper{CustomName:'{"translate":"asl.block.element_guider.name"}'} run kill @s

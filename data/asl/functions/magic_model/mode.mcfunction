@@ -1,0 +1,1 @@
+execute unless score @s asl_mm_mode matches 1.. run function asl:magic_model/mode/default

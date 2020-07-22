@@ -1,0 +1,2 @@
+execute if score @s ele_staff_yang > @s asl_opp run scoreboard players operation @e[limit=1,tag=asl_tmm,tag=energizing] ele_have_yang += @s asl_opp
+execute if score @s ele_staff_yang > @s asl_opp run scoreboard players operation @s ele_staff_yang -= @s asl_opp

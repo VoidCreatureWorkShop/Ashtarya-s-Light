@@ -1,0 +1,1 @@
+tellraw @a [{"entity":"@e[limit=1,type=snowball]","nbt":"Item.tag"}]

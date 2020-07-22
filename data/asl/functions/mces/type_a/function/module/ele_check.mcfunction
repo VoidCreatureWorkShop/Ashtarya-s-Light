@@ -1,0 +1,1 @@
+execute if score @s ele_have_yang >= @s ele_need_yang if score @s ele_have_hot >= @s ele_need_hot if score @s ele_have_light >= @s ele_need_light run function asl:mces/type_a/function/toward/toward

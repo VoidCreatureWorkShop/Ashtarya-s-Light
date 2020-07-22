@@ -1,0 +1,1 @@
+execute as @e[tag=asl_element_guider] at @s run function asl:block/element_guider/main

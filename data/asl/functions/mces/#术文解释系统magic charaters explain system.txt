@@ -1,0 +1,16 @@
+#Create函数
+
+以<开头，>结尾。
+格式为<|>
+读取完毕之后会直接if全部字符。
+
+路径为
+mces/create/元素或分素名称/形态/
+
+添加：
+	1.在needs中设置所需的元素数量。
+	2.修改needs和over中的函数路径
+		（将path替换为create下的路径名称   asl:mces/create/path/函数
+	3.在reset中减去所应消耗的元素。
+	4.在create/check.mcfunction中加入检测。
+	5.在summon中设置生成的实体

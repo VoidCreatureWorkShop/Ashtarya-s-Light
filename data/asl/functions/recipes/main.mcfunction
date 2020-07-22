@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{tag:{id:"asl:ancient_birch_branch"}}}] at @s as @s[y=0,dy=4] run function asl:recipes/staff/white_branch

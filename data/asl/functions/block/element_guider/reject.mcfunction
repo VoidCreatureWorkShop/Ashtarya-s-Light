@@ -1,0 +1,2 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:structure_void",Count:1b},Tags:["asl_foreign_item"]}
+data modify entity @e[limit=1,tag=asl_foreign_item] Item set from block ~ ~ ~ Items[{tag:{isForeignItem:1b}}]
