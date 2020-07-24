@@ -6,3 +6,6 @@
 放入saves/*你的地图*/datapacks/。
 我们还需要[资源包](https://github.com/VoidCreatureWorkShop/Ashtarya-s-Light-Resource-Pack) ，
 放入resourcepacks/
+
+[MCBBS原帖]()
+[VoidCreature官方网站]()
